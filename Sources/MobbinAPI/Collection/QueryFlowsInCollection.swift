@@ -7,6 +7,7 @@
 
 import Foundation
 import SwiftyJSON
+import FoundationNetworking
 
 extension MobbinAPI {
     public func queryFlows(in collection: Collection) async throws -> [Collection.Flow] {
